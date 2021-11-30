@@ -48,6 +48,8 @@ def game():
         if turns == 0:
             print("You've run of guesses you lose")
             return
+        elif guess != answer:
+            print("Guess Again")
 
 # track the number of turns and reduce by 1 if they get it wrong.
 
