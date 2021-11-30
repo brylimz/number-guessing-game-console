@@ -1,3 +1,4 @@
+import art
 from random import randint
 
 EASY_LEVEL_TURNS = 10
@@ -29,6 +30,7 @@ def check_answer(guess, answer, turns):
 
 # choosing a random number between 1 and 100.
 def game():
+    print(art.logo)
     print("Welcome to the Number Guessing Game !")
     print("I'm thinking of a number between 1 and 100.")
     answer = randint(1, 100)
